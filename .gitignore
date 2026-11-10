@@ -1,0 +1,25 @@
+
+# Kaggle datasets and generated data
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# AWS credentials and configuration
+.aws/
+.env
+.env.*
+*.pem
+
+# Local development files
+.DS_Store
+Thumbs.db
+
+# Local Claude configuration
+.claude/
